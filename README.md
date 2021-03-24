@@ -1,10 +1,12 @@
 # Proj_PET_fMRI_Munich_Naples
 
 Code: 
+
 	main_code_paper_Palombit_et_al_Neuroimage.m  
 		main code to run the analyses and generate the figures from the paper "Variability of regional glucose metabolism and the topology of functional networks in the human brain" by Palombit et al.
 
 Data:
+
 	dataset_A.mat (Munich)
 		'FC_group_dataset_A': average FC (347x347)
 		'SUVR_group_dataset_A': average SUVR (347x1)
@@ -20,12 +22,13 @@ Data:
 
 	networks_info_GL_subcort.mat
 		'net_assignment_Gordon_table': table
-			'net_assignment': name of RSN to which ROI is assigned (347x1)
-			'net_separation': RSN label assigned to each ROI (347x1)
-			'labels_ord': ordering of GL parcels according to RSNs
+		'net_assignment': name of RSN to which ROI is assigned (347x1)
+		'net_separation': RSN label assigned to each ROI (347x1)
+		'labels_ord': ordering of GL parcels according to RSNs
 		'net_names_Gordon': names of RSNs (GL atlas + SUB)
 
 Results:
+
 	Fig_2A_boxplot_SUVR_RSNs.png                                        
 	Fig_3B_SUVR_vs_strength_scatter.png                                 
 	Fig_4A_FC_short_long_range_within_between_RSNs.png                  
@@ -42,6 +45,7 @@ Results:
 	Results.mat                                                         
 
 Required toolboxes/utilities:
+
 	Brain Connectivity Toolbox (BCT): https://sites.google.com/site/bctnet/
 	FSLNets: https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FSLNets
 	FDR Benjamini-Hockberg: https://www.mathworks.com/matlabcentral/fileexchange/27418-fdr_bh
