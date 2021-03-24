@@ -1,4 +1,5 @@
 # Proj_PET_fMRI_Munich_Naples
+Repository for matlab data and codes to generate the figures from the paper "Variability of regional glucose metabolism and the topology of functional networks in the human brain" by Palombit et al.
 
 Code: 
 
